@@ -7,3 +7,5 @@ http.createServer(function (req, res) {
     var txt = q.year + " " + q.month;
     res.end(txt);
 }).listen(8080);
+
+// http://localhost:8080/?year=2017&month=July produces web page with 2017 July

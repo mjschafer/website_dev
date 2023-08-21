@@ -18,3 +18,4 @@ http.createServer(function (req, res) {
 
 // http://localhost:8080/summer.html will show website with title "Summer" and "I love the sun!"
 // http://localhost:8080/winter.html will show website with title "Winter" and "I love the snow!"
+// http://localhost:8080/spring.html will show a "404 Not Found" error
